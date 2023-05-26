@@ -19,6 +19,7 @@ function Blog() {
       <>
          <PostTitle title={post.title} />
          <PostBody body={post.body} />
+         <hr />
       </>
    ))
 }
