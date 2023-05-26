@@ -10,20 +10,20 @@ export default function App() {
 
 function Blog() {
   return (
-    <>
+    <div>
       <Post title="An update" body="It's been a while since I posted..." />
       <Post title="My new blog" body="I am starting a new blog!" />
-    </>
+    </div>
   );
 }
 
 function Post({ title, body }) {
   return (
-    <>
+    <div>
       <PostTitle title={title} />
       <PostBody body={body} />
       <hr></hr>
-    </>
+    </div>
   );
 }
 
